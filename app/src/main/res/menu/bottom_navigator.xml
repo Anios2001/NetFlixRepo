@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+ <item android:icon="@drawable/ic_home_24" android:enabled="true"
+     android:id="@+id/home_icon" android:title="Home" />
+    <item android:icon="@drawable/ic_search_24" android:enabled="true"
+        android:id="@+id/search_icon" android:title="Search" />
+    <item android:icon="@drawable/ic_menu_24" android:enabled="true"
+        android:id="@+id/settings_icon" android:title="Settings" />
+
+</menu>

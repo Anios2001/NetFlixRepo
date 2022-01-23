@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="netflixBrandColor">#BD0D0D</color>
+    <color name="netflix_editText_color">#666565</color>
+    <color name="netflix_payment_card">#3C3F41</color>
+    <color name="item_selected">#FFFFFFFF</color>
+    <color name="item_notSelected">#4C4949</color>
+    <color name="bottom_navigation">#171717</color>
+</resources>

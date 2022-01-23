@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">NetFlix</string>
+    <string name="netflixicon">netflixIcon</string>
+    <string name="email_address_hint">Email Address</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="get_started">GET STARTED</string>
+    <string name="imageholder_str">imageHolder</string>
+    <string name="lock_png">lock.png</string>
+    <string name="lock_background_png">lock_background.png</string>
+    <string name="choose_your_plan">Choose Your Plan</string>
+    <string name="step_1_str">Step 1 of 3</string>
+    <string name="check_mark_content_desc">check_mark</string>
+    <string name="basicplanimage">basicPlanImage</string>
+    <string name="description_plan_activity">Downgrade or Upgrade at any time</string>
+    <string name="netflix_finsh_message">NetFlix is personalised for you. Start with setting up a password for your account for sign in on any device</string>
+    <string name="create_pass_txt">Create a password to start your Membership. We also hate paper work only single password for all Netflix Content</string>
+    <string name="membership_detail_txt">Your membership starts as soon as you set up your paymnet</string>
+    <string name="no_commitment_txt">No commitments, cancel online anytime.</string>
+    <string name="term_text_detail">By checking the check box below you adhere to our Terms of Use, Privacy Statement and agree that your are 18 years old or above. Netflix will automatically deduct the above mentioned amount from your payment method monthly. You are completely free to cancel anytime.</string>
+    <string name="check_statement_txt">I agree to the terms and Privacy Statement</string>
+</resources>

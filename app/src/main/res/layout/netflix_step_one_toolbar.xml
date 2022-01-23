@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+ <androidx.constraintlayout.widget.ConstraintLayout
+     android:layout_height="wrap_content"
+     android:layout_width="250sp"
+     android:id="@+id/toolbar_costranined"
+     >
+     <androidx.appcompat.widget.Toolbar
+         android:layout_width="match_parent"
+         android:id="@+id/toolbar_swipe_ID"
+         android:layout_height="wrap_content"
+         android:background="@color/white"
+        app:layout_constraintTop_toTopOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintStart_toStartOf="parent"
+
+         >
+         <ImageView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@mipmap/netflix_welcome_logo_foreground"
+             android:contentDescription="@string/netflixicon"
+             />
+         <RelativeLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             >
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="SIGN IN"
+                 android:id="@+id/sign_in_txt"
+                 android:textColor="@color/black"
+                 android:textStyle="bold"
+                 android:layout_margin="10sp"
+                 />
+
+         </RelativeLayout>
+     </androidx.appcompat.widget.Toolbar>
+ </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

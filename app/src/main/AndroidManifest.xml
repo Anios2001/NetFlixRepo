@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.netflix">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.BATTERY_STATS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.READ_LOGS"
+        tools:ignore="ProtectedPermissions" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/netflix_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/netflix_icon"
+        android:supportsRtl="true">
+        <activity android:name=".MainScreens.MovieDetails"
+            android:theme="@style/Theme.AppCompat"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".MainScreens.VideoPlayer"
+            android:theme="@style/Theme.NetFlix"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".MainScreens.SearchActivity"
+            android:theme="@style/Theme.AppCompat"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".MainScreens.Settings"
+            android:theme="@style/Theme.NetFlix"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".MainScreens.TV_series"
+            android:theme="@style/Theme.NetFlix"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".MainScreens.Movies"
+            android:theme="@style/Theme.NetFlix"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Activities.Plan_recharge"
+            android:theme="@style/Theme.NetFlix"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".MainScreens.MainScreen"
+            android:theme="@style/Theme.NetFlix" />
+        <activity
+            android:name=".Activities.PaymentGateway"
+            android:theme="@style/Theme.NetFlix"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Activities.StepThree"
+            android:theme="@style/Theme.NetFlix"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Activities.StepTwo"
+            android:theme="@style/Theme.NetFlix"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Activities.FinishUpAccount"
+            android:theme="@style/Theme.NetFlix"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Activities.StepOne"
+            android:theme="@style/Theme.NetFlix"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Activities.PlanActivity"
+            android:theme="@style/Theme.NetFlix"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Activities.SwipeScreen"
+            android:theme="@style/Theme.NetFlix"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Activities.SignInActivity"
+            android:theme="@style/Theme.NetFlix"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/Theme.NetFlix"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="rzp_test_5aPQvwfTKJV3ek" />
+
+        <activity
+            android:name=".Activities.MainActivity"
+            android:theme="@style/Theme.NetFlix" />
+    </application>
+
+</manifest>

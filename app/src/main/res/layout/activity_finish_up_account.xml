@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.FinishUpAccount">
+    <include layout="@layout/netflix_step_one_toolbar"
+        android:id="@+id/toolbarID_step_one"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="100sp"
+        >
+    <ImageView
+        android:layout_width="90sp"
+        android:layout_height="90sp"
+        android:padding="10sp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_baseline_check_circle_outline_24"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/step_1_str"
+        android:textStyle="bold"
+        android:id="@+id/step_one_txt"
+        android:textSize="21sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Finish setting up account"
+        android:textStyle="bold"
+        android:textSize="21sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/netflix_finsh_message"
+            android:textSize="21sp"
+            android:padding="12sp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12sp"
+            android:text="Continue"
+            android:id="@+id/continue_btn_finish"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
