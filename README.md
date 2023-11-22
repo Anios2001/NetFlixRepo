@@ -7,5 +7,7 @@ One of friends used to buy a subscription with the community money we gathered a
 1. Just change the time.  We had limited time of our studies.
 2. Watch some movies together. Not Possible we had a Tech Marvel Fan to a Magic Harry Potter to dashing DC Fan.
 3. Do something else, really we are problem solvers we do everything with code.
+
+
 So, me and my 5 nerd friends decided we want our own service hosted on using combined hosting capacity of our mobile phones to do that. We got to the drwaing board and came up with a distributed CDN for mobiles with minimal throughput loss and whose capacity to manage the throughput increased with addition of new users.
 "Design a system capable of streaming HD Quality content from a central server using the hosting capability of the connected nodes."  
