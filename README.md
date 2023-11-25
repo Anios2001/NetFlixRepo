@@ -19,3 +19,10 @@ The design of such a system as defined many times involves 5 steps :
 3. Management : Handlling the business side of the movie streaming i.e., ad insertion and security while streaming so that content is securely delivered to end users 
 4. Delivery and Playback: When final stream is ready with ads, then it is transmitted over the networks to reach the end user and played there. The process is complex as the devices support is ever growing and watching a movie anywhere is the market experience. To make the system inclusive of all formats the designers had to bundle 20 different kind of streams of a single video and that is converted into the suitable resolution needed at the end device. This becomes the playback concern. 
 5. Chaos Engineering: Testing the system is a big problem as you would not know how the people are going to use the streaming service therefore, you have to prepare for the worst possible consequences and that can be done by Chaos Monkey tool which generates requests for the server that aims to break it in order to judge the effectiveness and resiliancy of the system.
+## Technical Stack
+The following are the technical tools I used to create the project according to uses :
+1. FrontEnd = Android Framework using Java and XML for design
+2. Backend = Node.js Custom API, Nginx with Reverse Proxy and CDN Configuration
+3. Kubernetes Server=  For better configuration transfer among the nodes and horizontal scaling.
+4. Video Streaming Client Implementation : I used classic Android Video Stream Player for Android and JavaScript Stream Player for streaming on Web.
+
