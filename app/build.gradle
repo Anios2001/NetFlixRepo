@@ -22,6 +22,17 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
+        debug {
+            // Customize debug build settings if needed
+            // ...
+
+            // Change the output APK file name for the debug build
+            applicationVariants.all { variant ->
+                variant.outputs.all {
+                    outputFileName = "netflix-debug.apk"
+                }
+            }
+        }     
     }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
